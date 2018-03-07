@@ -1,5 +1,5 @@
 # Social-Network
-A simple Social Network implemented using PHP, AJAX and JSON.
+A simple Social Network implemented using secure PHP, AJAX and JSON.
 It is responsive, meaning that it looks well in every screen size, from smartphones to large desktops.
 
 Τhis particular Social Network consists of:
