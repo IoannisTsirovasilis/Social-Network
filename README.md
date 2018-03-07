@@ -16,4 +16,7 @@ Everything apart from the login/register page is implemented using asynchronous 
 With AJAX a Social Network becomes more of a real-time application, although the best way to implement a Social Network is using
 Web Sockets.
 By calling particular JavaScript methods (with AJAX help) every once in a while the data can be transferred between the client and the 
-server without the need of reloading the page. That makes the app significantly faster.
+server without the need of reloading the page. That makes the application significantly faster.
+
+Additionally, each set of data transferred to or from the server has been securely escaped from illegal characters and has been inserted 
+into the database using prepared statements, preventing various forms of attacks, like SQL Injection attacks, XSS etc.
